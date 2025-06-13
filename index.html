@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="start-screen">
+  <h2>Masukkan Nama Kamu</h2>
+  <input type="text" id="namaInput" placeholder="Nama kamu">
+  <button onclick="mulaiGame()">Mulai</button>
+</div>
+
+<div class="container" style="display: none;">
+    <h2 id="soal">Pertanyaan muncul di sini</h2>
+    <div id="pilihan"></div>
+    <p id="hasil"></p>
+    <button id="next" onclick="nextQuestion()">Next</button>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
